@@ -1,4 +1,5 @@
-/* my first C program 3-6-2026 */
+/* my first C program 
+date: 3-6-2026 */
 
 /*
 include standard input/output functions in this common 'header':
