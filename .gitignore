@@ -1,2 +1,5 @@
 *.o
 bin/
+
+# executables
+!chapters/01_storing_data/*.c
