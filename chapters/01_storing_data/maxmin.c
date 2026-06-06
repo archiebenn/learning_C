@@ -15,7 +15,8 @@ int main (){
     printf("Max long: %ld\t", LONG_MAX);
     printf("Min long: %ld\t", LONG_MIN);
 
-    //  byte has 8 bits. unsigned uses all 8 to store a positive number (0–255) while signed uses 7 for the number and 1 to indicate positive/negative (-128–127).
+    //  byte has 8 bits. unsigned uses all 8 to store a positive number (0–255) while signed uses 7 for the number and 1 to indicate positive/negative (-128–127)
+    // each byte of memory has its own label/number known as an address
 
     // sizeof operator can be used to examine the amount of memory assigned to different data types:
     printf("\n");
@@ -25,6 +26,7 @@ int main (){
     printf("float takes up %zu bytes\n", sizeof(float));
     printf("char takes up %zu byte\n", sizeof(char));
     printf("double takes up %zu bytes\n", sizeof(double));
+    printf("int takes up %zu bytes\n", sizeof(int));
 
-    return 0;
+    //return 0; - turns out you don't actually need return 0 in modern standards
 }
