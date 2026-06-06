@@ -10,10 +10,10 @@
 int main(){
     char character; int a,b;                                   // declare variables
 
-    printf("Enter any single keyboard character");
+    printf("Enter any single keyboard character ");
     scanf("%c", &character);                                   // accept input character and assign to 'character'
 
-    printf("Enter any two integers separated by a space");
+    printf("Enter any two integers separated by a space ");
     scanf("%d" "%d", &a, &b);                                  // accepts two integers and assigns to 'a' and 'b' respectively
 
     printf("The letter entered was %c\n", character);
