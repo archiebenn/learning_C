@@ -1,3 +1,3 @@
 # learning_C
-My attempt at learning C
+Learning C basics with the aim to move into C++ after
 
