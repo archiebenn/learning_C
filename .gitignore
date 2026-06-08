@@ -2,5 +2,5 @@
 bin/
 
 # executables
-chapters/01_storing_data/*
-!chapters/01_storing_data/*.c
+c/01_storing_data/*
+!c/01_storing_data/*.c
