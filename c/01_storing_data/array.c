@@ -17,9 +17,13 @@ int main(){
 
     // using arrays for strings
     // one of the most significant uses of arrays in C is for storing chars which make up a string
+    // \0 promotes the array to string status
     char name[7] = {'A', 'r', 'c', 'h', 'i', 'e', '\0'};
 
-    printf("The array 'name' stores the string: %s\n", name);
+    // equally, less verbose way of defining strings:
+    char surname[] = "Benn";
+
+    printf("My name is %s %s", name, surname);
 
     return 0;
 }
