@@ -23,7 +23,7 @@ int main(){
     // equally, less verbose way of defining strings:
     char surname[] = "Benn";
 
-    printf("My name is %s %s", name, surname);
+    printf("My name is %c %s", name[0], surname);
 
     return 0;
 }
