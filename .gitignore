@@ -2,8 +2,7 @@
 bin/
 
 # executables
-c/01_storing_data/*
-!c/01_storing_data/*.c
-
-cpp/*
-!cpp/*.cpp
+c/**
+!c/**/*.c
+cpp/**
+!cpp/**/*.cpp
