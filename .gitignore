@@ -3,6 +3,8 @@ bin/
 
 # executables
 c/**
+!c/**/
 !c/**/*.c
 cpp/**
+!cpp/**/
 !cpp/**/*.cpp
