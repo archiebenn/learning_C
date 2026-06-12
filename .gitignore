@@ -8,3 +8,6 @@ c/**
 cpp/**
 !cpp/**/
 !cpp/**/*.cpp
+
+# python test stuff
+pybind/venv
