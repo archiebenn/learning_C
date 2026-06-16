@@ -7,6 +7,7 @@ Working through an old and short book on C I found (C programming by Mike Mcgrat
 The main plan is just to get for this lower level programming vs my background in R/Python before moving onto and focusing on C++.  
 
 ## C++
+Will be coming soon!
 
 ## Python bindings with `pybind11`
 Learning about implementing C++ code into Python scripts with pybind which could be v useful for offloading some computationally heavy aspects of Python scripts to C++ functions.  
