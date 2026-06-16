@@ -2,7 +2,7 @@
 Learning C basics with the aim to move into C++. This is essentially out of interest for programming and to improve my understanding of higher level languages, but being able to read/write in these languages may also be helpful for come comp bio stuff in the future (I hope).
 
 ## C
-Working through an old and short book on C I found which covers data types, operations, functions, pointers/memory stuff, structs, I/O etc. 
+Working through an old and short book on C I found (C programming by Mike Mcgrath, 2006) which covers data types, operations, functions, pointers/memory stuff, structs, I/O etc. 
 
 The main plan is just to get for this lower level programming vs my background in R/Python before moving onto and focusing on C++.  
 
