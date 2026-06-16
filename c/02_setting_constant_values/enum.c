@@ -8,7 +8,9 @@
 // this represents values of ball colours in snooker (red = 1, up to black =7)
 int main(){
 
-    enum colours {RED = 1, YELLOW, GREEN, BROWN, BLUE, PINK, BLACK};  // note name could have been ommitted andnote CONSTS in caps (enum = consts int sequence)
+    enum colours {
+        RED = 1, YELLOW, GREEN, BROWN, BLUE, PINK, BLACK
+    };  // note name could have been ommitted andnote CONSTS in caps (enum = consts int sequence)
     int total; 
 
     printf("I potted a red ball worth %d points\n", RED);               // 1
