@@ -10,11 +10,11 @@ The main plan is just to get for this lower level programming vs my background i
 Will be coming soon!
 
 ## Python bindings with `pybind11`
-Learning about implementing C++ code into Python scripts with pybind which could be v useful for offloading some computationally heavy aspects of Python scripts to C++ functions.  
+Learning about implementing C++ code into Python scripts with pybind which could be useful for offloading some computationally demanding aspects of Python scripts to C++ functions.  
 
-So far, I have used for loops to get the sum of squares, with one written in C++ and one in Python (see `pybind/pybind_test01.cpp` and `.py`), to get this result to demonstrate binding usefulness: 
+So far, I have used for loops to get the sum of squares, with one written in C++ and one in Python and both run from a Python script (see `pybind/pybind_test01.cpp` and `.py`), to get this result to demonstrate binding usefulness: 
 
 ```
 Python loop time on 1000000000 iterations: 61.283s
-C++ loop time on 1000000000 iterations: 0.645s
+C++ loop time (in .py) on 1000000000 iterations: 0.645s
 ```
