@@ -11,7 +11,6 @@ long long squares_sum(long long a){
     long long total = 0;
 
     for (long long i =0; i <= a; i++){
-
         total = total + (i * i);
     }
 
