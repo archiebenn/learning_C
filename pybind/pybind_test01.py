@@ -44,7 +44,7 @@ end = time.time()
 cpp_time = end - start
 print(f"C++ loop time on {n} iterations: {cpp_time:.3f}s")
 
-# numpy 
+# numpy .
 start = time.time()
 (np.arange(n + 1, dtype=np.int64) ** 2).sum()
 end = time.time()
